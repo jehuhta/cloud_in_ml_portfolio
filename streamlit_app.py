@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import psycopg2
+
 
 @st.cache_data
 def get_data():
